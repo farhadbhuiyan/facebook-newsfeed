@@ -1,0 +1,61 @@
+.nav-bar {
+  height: 56px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+.left {
+  width: 30%;
+}
+.left i {
+  font-size: 40px;
+  color: #1877f2;
+}
+.left form input {
+  margin-left: 10px;
+  border: none;
+  background-color: #e4e6eb;
+  padding: 7px;
+  border-radius: 20px 20px;
+}
+.middle {
+  width: 40%;
+  padding: 5px;
+  font-size: 20px;
+}
+.middle span {
+  width: 20%;
+  padding: 3px;
+}
+.middle span i {
+  width: 100%;
+  text-align: center;
+}
+.middle span:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #e4e6eb;
+}
+.active {
+  margin-bottom: -10px;
+  color: #1877f2;
+  border-bottom: 3px solid #1877f2;
+}
+.right {
+  width: 30%;
+}
+.right span {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+  font-size: 20px;
+  font-weight: 500;
+}
+.right span i {
+  width: 100%;
+  text-align: center;
+}

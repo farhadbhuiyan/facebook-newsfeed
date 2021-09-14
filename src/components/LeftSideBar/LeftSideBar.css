@@ -1,0 +1,35 @@
+.left-side-bar {
+  width: 300px;
+  height: 100vh;
+  padding: 10px;
+  background-color: #f0f2f5;
+  position: fixed;
+  left: 0;
+  top: 56px;
+  overflow-y: scroll;
+}
+.left-item {
+  height: auto;
+  padding: 5px;
+  margin: 10px;
+  color: black;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.left-item:last-child {
+  border-bottom: 1px solid #c8c7cc;
+}
+.left-item:hover {
+  background-color: #e4e6eb;
+  border-radius: 5px;
+}
+.left-item i {
+  font-size: 20px;
+  color: #1877f2;
+}
+.left-item span {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: lighter;
+}
